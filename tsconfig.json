@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "noImplicitAny": false,
+
     /* Base Options: */
     "esModuleInterop": true,
     "skipLibCheck": true,

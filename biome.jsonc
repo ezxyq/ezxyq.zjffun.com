@@ -3,7 +3,7 @@
   "vcs": {
     "enabled": true,
     "clientKind": "git",
-    "useIgnoreFile": true
+    "useIgnoreFile": true,
   },
   "files": { "ignoreUnknown": false, "ignore": [] },
   "formatter": { "enabled": true },
@@ -11,16 +11,19 @@
   "linter": {
     "enabled": true,
     "rules": {
+      "suspicious": {
+        "noExplicitAny": "off",
+      },
       "nursery": {
         "useSortedClasses": {
           "level": "warn",
           "fix": "safe",
           "options": {
-            "functions": ["clsx", "cva", "cn"]
-          }
-        }
+            "functions": ["clsx", "cva", "cn"],
+          },
+        },
       },
-      "recommended": true
-    }
-  }
+      "recommended": true,
+    },
+  },
 }

@@ -44,3 +44,9 @@ yarn-error.log*
 
 # idea files
 .idea
+
+# clerk configuration (can include secrets)
+.clerk
+
+# clerk configuration (can include secrets)
+/.clerk/
